@@ -94,7 +94,7 @@ public class StudentMain {
     }
 
     public static void display(Student[] array, int noOfObjects) {
-        for (int i = 0; i < noOfObjects; i++) {
+        for (int i = 0; i <= noOfObjects; i++) {
             Student object = array[i];
             System.out.println("object.name = " + object.getName());
             System.out.println("object.age = " + object.age);
